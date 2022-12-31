@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Weather Report</title>
+    <link rel="stylesheet" href="mypro.css">
+    <link rel="stylesheet" media="screen and (width:1024px)" href="mypro4.css">
+    <link rel="stylesheet" media="screen and (max-width:770px)" href="mypro1.css">
+    <link rel="stylesheet" media="screen and (max-width:400px)" href="mypro2.css">
+    <link rel="stylesheet" media="screen and (max-width:300px)" href="mypro3.css">
+</head>
+
+<body>
+    <div id="navbar">
+        <div id="left">
+            <img src="/icon.png" alt="" id="icon">
+            <h1>KnowTheNature</h1>
+        </div>
+        <div id="right">
+            <div id="time">
+                12.30<span id="am-pm"> PM</span>
+            </div>
+            <div id="date">
+                Monday,24 May
+            </div>
+        </div>
+    </div>
+    <div id="searchContainer">
+        <input class="searchControl" type="search" placeholder="Please Enter City Name" id="searchInput"
+            class="box-shadow">
+        <button class="searchControl" id="searchBtn" class="box-shadow">Go!</button>
+    </div>
+    <div id="weathercontainer">
+        <div id="arrange">
+            <div id="head">Goa</div>
+            <div id="humidity">
+                <div class="hu">Humidity</div>
+                <div class="hu">88%</div>
+            </div>
+            <div id="pressure">
+                <div class="pre">Pressure</div>
+                <div class="pre">88</div>
+            </div>
+            <div id="wind_speed">
+                <div class="wind">Wind Speed</div>
+                <div class="wind">22</div>
+            </div>
+        </div>
+    </div>
+    <div id="daily-report">
+        <div id="today">
+            <img src=" http://openweathermap.org/img/wn/10d@2x.png" alt="It is an image" class="image" id="img1">
+            <div id="cen">
+                <div class="day" id="day1">Tuesdat</div>
+                <div class="temp" id="day1Min">Min - 25.3&#176;C</div>
+                <div class="temp" id="day1Max">Max - 25.3&#176;C</div>
+            </div>
+        </div>
+        <div id="previous">
+            <div class="border">
+                <img src=" http://openweathermap.org/img/wn/10d@2x.png" alt="It is an image" class="image" id="img2">
+                <div class="flexy">
+                    <div class="day" id="day2">Tuesdat</div>
+                    <div class="temp" id="day2Min">Min - 25.3&#176;C</div>
+                    <div class="temp" id="day2Max">Max - 25.3&#176;C</div>
+                </div>
+            </div>
+            <div class="border">
+                <img src=" http://openweathermap.org/img/wn/10d@2x.png" alt="It is an image" class="image" id="img3">
+                <div class="flexy">
+                    <div class="day" id="day3">Tuesdat</div>
+                    <div class="temp" id="day3Min">Min - 25.3&#176;C</div>
+                    <div class="temp" id="day3Max">Max - 25.3&#176;C</div>
+                </div>
+            </div>
+            <div class="border">
+                <img src=" http://openweathermap.org/img/wn/10d@2x.png" alt="It is an image" class="image" id="img4">
+                <div class="flexy">
+                    <div class="day" id="day4">Tuesdat</div>
+                    <div class="temp" id="day4Min">Min - 25.3&#176;C</div>
+                    <div class="temp"id="day4Max" >Max - 25.3&#176;C</div>
+                </div>
+            </div>
+            <div class="border">
+                <img src=" http://openweathermap.org/img/wn/10d@2x.png" alt="It is an image" class="image" id="img5">
+                <div class="flexy">
+                    <div class="day" id="day5">Tuesdat</div>
+                    <div class="temp"id="day5Min" >Min - 25.3&#176;C</div>
+                    <div class="temp" id="day5Max">Max - 25.3&#176;C</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <script src="source.js"></script> -->
+    <!-- <script src="source1.js"></script> -->
+    <script src="source2.js"></script>
+</body>
+
+</html>

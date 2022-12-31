@@ -1,0 +1,56 @@
+/* body::before{
+    height: 150%;
+} */
+
+/* #navbar */
+#left{
+    padding: 0.3rem;
+}
+#icon{
+    width: 4rem;
+    height: 4rem;
+}
+#right{
+    text-align: center;
+    padding: 0rem 0.8rem 0rem 0rem;
+}
+h1{
+    font-size: 1.5em;
+}
+#time{
+    font-size: 1.8rem;
+}
+#date{
+    font-size: 1.2rem;
+}
+
+/* ---------------------------------------------------------- */
+
+/* #searching part*/
+#searchContainer input{
+    width: 60vw;
+    height: 6vh;
+    font-size: 0.7rem;
+}
+#searchContainer button{
+    width: 10vw;
+    height: 6vh;
+    font-size: 0.7rem;
+}
+
+/* ------------------------------------------------------------------ */
+
+/* #Future-report part */
+#previous{
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+}
+.border{
+    flex-direction: row;
+    margin: -0.2rem;
+    padding: 0.4rem;
+}
+.image{
+    width: 4rem;
+    height: 4rem;
+}
